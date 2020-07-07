@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: #ffffff;;
+    background-position: center;
+    background-image: url("../img/logo_titi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family:sans-serif;
+    border : 3px solid #000000;
+}
+
+header, footer{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(82, 80, 79);
+    border : 3px solid #000000;
+}
+
+.contenedor{
+    width:100%;
+    height: auto;
+    border : 5px solid #000000;
+    margin:auto ;
+    
+    text-align :center ;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+}
+.contenedor .item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+.contenedor .item2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    
+}
+
+.contenedor .item3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    
+}
+
+nav{
+    background-color: rgb(241, 195, 203);
+    overflow: visible;
+    /* margin-bottom: 50px; */
+    /* display: flex;
+    justify-content: flex-end; */
+    margin: 50px;
+
+}
+nav a{
+    display: flex;
+    display: inline-flex;
+    background-color: rgb(216, 158, 70);
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;s   
+
+}
